@@ -1,4 +1,4 @@
-package main.java;
+package exercise;
 
 /**
  * Stores keys of type Object and values of type Object.

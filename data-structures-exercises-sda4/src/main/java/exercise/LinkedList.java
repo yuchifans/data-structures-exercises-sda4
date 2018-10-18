@@ -1,4 +1,4 @@
-package main.java;
+package exercise;
 
 class Node {
 	int item;
