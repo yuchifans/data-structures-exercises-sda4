@@ -47,7 +47,7 @@ public class HashTable {
 	}
 
 	/**
-	 * Returns the value that the key is mapped to.
+	 * Returns the the integer that the key is mapped to.
 	 *
 	 * @param key
 	 * @return the value that key maps to.
@@ -56,6 +56,9 @@ public class HashTable {
 		int hashValue = key.hashCode();
 		int index = hashValue % SIZE;
 		Entry current = table[index];
+		if(current==null) {
+			return null;
+		}
 		while (current.next != null && current.key != key) {
 			current = current.next;
 		}
