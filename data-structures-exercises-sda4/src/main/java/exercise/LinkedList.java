@@ -37,7 +37,7 @@ public class LinkedList {
 	}
 
 	/**
-	 * Returns element at given index
+	 * Returns the integer element at the given index.
 	 * 
 	 * Complexity: 0(n)
 	 * 
