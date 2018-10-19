@@ -36,10 +36,10 @@ public class LinkedList {
 		}
 	}
 
-	/**
-	 * Returns element at given index. Note that this method throws
-     * an IndexOutOfBoundsException if a negative index is provided, or
-     * if an index larger than size - 1 is provided.
+	/** 
+	 * Returns the integer element at the given index. Note that this
+     * method throws an IndexOutOfBoundsException if a negative index
+     * is provided, or if an index larger than size - 1 is provided.
 	 * 
 	 * Complexity: 0(n)
 	 * 
